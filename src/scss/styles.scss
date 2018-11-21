@@ -1,5 +1,13 @@
-$bg-color: red;
+// variable Overrides
+$theme-colors: (
+    "primary": #d95700
+);
 
-body{
-    background : $bg-color;
+$body-bg: #ededed;
+
+.jumbotron{
+    background-color: #ffffff !important;
+    border-top: 3px solid rgb(219,219,219);
 }
+//Bootstrap Sass Files
+@import "node_modules/bootstrap/scss/bootstrap";
